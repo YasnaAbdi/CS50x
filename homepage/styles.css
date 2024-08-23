@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  max-width: 1899.98px;
+  margin: auto;
+}
+.body {
+    padding: 0rem 3%;
+    font-size: 17px;
+  }
+  .btn {
+    border-radius: 20px;
+    width: 100px;
+    font-size: 0.75rem;
+    align-items: center;
+    font-weight: 500;
+  }
+  .body .btn:hover {
+    background-color: rgb(136, 136, 136) !important;
+  }
+  .title {
+    font-size: 65px;
+    font-weight: 800;
+    letter-spacing: -4px;
+    display: inline-block;
+    transform: scale(1, 1.25);
+    word-spacing: 10px;
+    text-transform: uppercase;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #select-bar {
+    margin: 4% 4% 4% 15%;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 28px;
+  }
+  .hidden-nike-bar {
+    opacity: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  #select-bar .nike-bar:hover .hidden-nike-bar {
+    height: fit-content;
+    opacity: 1;
+    visibility: visible;
+    transition: all ease-in 700ms;
+    z-index: 99;
+  }
+  #select-bar > div > div + .help-bar:hover {
+    opacity: 1;
+    visibility: visible;
+    transition: all ease-in 700ms;
+    z-index: 99;
+  }
+  #select-bar a:hover span {
+    color: #000;
+    cursor: pointer;
+  }
+  #select-bar span {
+    color: rgb(148, 148, 148);
+  }
+  #select-bar .nike-bar:hover {
+    max-height: fit-content;
+    transition: all ease-in 1000ms;
+  }

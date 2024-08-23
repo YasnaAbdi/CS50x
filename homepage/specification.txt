@@ -1,0 +1,4 @@
+4 .html : index.html, know.html, me.html, contact.html
+10 HTML tags: div, button, span, a, hr, br, h1 to h5, img, section, li and ul and ol.
+ 5 CSS properties Color, Background color, Font size, Padding ,Height and width , Border ,Position and etc.
+ I both use script tag localy and universal(linked my js) for script.js and bootstrap.
